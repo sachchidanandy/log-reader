@@ -1,0 +1,17 @@
+{
+  "name": "log-reader",
+  "version": "1.0.0",
+  "description": "Program to read log files and generate report accordingly",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SachchidanandY",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
