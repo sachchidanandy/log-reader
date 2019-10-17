@@ -26,7 +26,6 @@ export const getfileList = async (folderPath) => {
 
 // Get list of lines which match to given stringToSearch
 export const grepFile = async (filePath='', stringToSearch='') => {
-    const filePath = path.resolve(__dirname, `${filePath}`);
     let filteredLines = [];
     try {
         const cmd = `egrep '${stringToSearch.toString().trim()}' ${filePath}`;
